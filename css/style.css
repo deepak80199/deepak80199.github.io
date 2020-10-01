@@ -1,0 +1,52 @@
+/* 
+
+Project Name: Avater
+Client: Aang Air Bender
+Author: Deepak Pandey 
+ 
+
+*/
+
+body {
+	background: url('../images/aang.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+#container{
+
+	width: 600px;
+	background-color:black;
+	color: white;
+	margin-top:0px;
+}
+a{
+	color:lightblue;
+	text-decoration: none;
+}
+
+#water{
+	color:#69D2E7;
+}
+#fire{
+	color: #FF5A0B;
+}
+#earth{
+	color: #B8A08F;
+}
+h1{
+	color: #52D1F7;
+	margin-top: 0px;
+	padding-top: 10px;
+	font-family: 'Ranchers', cursive;
+}
+h2{
+	font-family: 'Ranchers', cursive;
+}
